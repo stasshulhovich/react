@@ -1,9 +1,10 @@
 import React from 'react'
+import c from './Profile.module.css';
 
-const Content = () =>
+const Profile = () =>
 
 {
-    return <div className = 'content'>
+    return <div className = {c.content}>
     <div>
     <img src ='https://image.shutterstock.com/image-photo/chairs-umbrella-palm-beach-tropical-260nw-559599520.jpg'/>
     </div>        
@@ -27,6 +28,6 @@ const Content = () =>
     </div>
 }
 
-export default Content;
+export default Profile;
     
   
